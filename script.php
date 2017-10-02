@@ -25,7 +25,7 @@ do{
 			if($value[2]==1){
 				$table = "pressao";
 			}else{
-				$table = "vasao";
+				$table = "vazao";
 			}
 			
 			$sql = "insert into ".$table." (tag,valor) values ('".$value[0]."',".$value[1].")";

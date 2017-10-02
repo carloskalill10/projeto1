@@ -2,7 +2,7 @@ create DATABASE projeto1;
 
 use projeto1;
 
-create TABLE vasao(
+create TABLE vazao(
 	id Int AUTO_INCREMENT,
     tag TEXT,
     valor float,
